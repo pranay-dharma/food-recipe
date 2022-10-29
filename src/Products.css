@@ -1,0 +1,101 @@
+
+.block{
+    background-color: black;
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+.data_image{
+       width:305px;
+       height: 400px;
+       justify-content:space-around;
+       margin: 20px 20px 10px 40px;
+      
+}
+img{
+    border-radius:10px;
+
+}
+.data_details{
+    color:white;
+    margin-top:5px;
+    letter-spacing: 1px;
+
+}
+.label{
+    text-shadow: 5px 5px 4px aqua;
+}
+.calories{
+    text-shadow: 5px 5px 4px aqua;
+
+}
+.btn-buy{
+    width:70px;
+    background-color:aqua;
+    margin-top:10px;
+    border-radius: 5px;
+    padding-bottom:2px;
+   
+}
+a{
+    width:100px;
+    text-decoration: none;
+    color:black;
+}
+
+/* media queries  */
+
+
+@media screen and (max-width:900px) {
+    .block{
+        background-color: black;
+        width:100%;
+        height: auto;
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin-top:50px;
+    }
+    .data_image{
+           width:250px;
+           height: 300px;
+           justify-content:space-between;
+           margin: 20px 20px 20px 20px;
+          
+          
+    }
+    img{
+        width:200px;
+        height: 200px;
+        margin-left:40px;
+    }
+    
+}
+@media screen and (max-width:1110px) {
+    .block{
+        background-color: black;
+        width:100%;
+        height: auto;
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin-top:50px;
+    }
+    .data_image{
+           width:250px;
+           height: 300px;
+           justify-content:space-between;
+           margin: 20px 20px 20px 20px;
+          
+          
+    }
+    img{
+        width:200px;
+        height: 200px;
+        margin-left:40px;
+    }
+    
+}
